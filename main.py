@@ -29,4 +29,4 @@ if pwd_punctuation == 'y':
 for i in range(pwd_lenght):
     new_password += pull[random.randint(0, len(pull)-1)]
 
-print("Ваш новый пароль:" + new_password)
+print("Ваш новый пароль: " + new_password)
